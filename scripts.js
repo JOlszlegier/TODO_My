@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded',() => {
 
         if (todoTextarea.value !== '') {
             addTask(todoTextarea.value);
-            todoTextarea.value = '';
+            // todoTextarea.value = '';
         }
     });
 
